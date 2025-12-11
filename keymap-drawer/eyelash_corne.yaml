@@ -349,7 +349,7 @@ combos:
 - p: [8, 9]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [9, 10]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
 - p: [43, 46]
