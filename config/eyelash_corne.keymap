@@ -111,10 +111,10 @@
         LEFTNUM {
             display-name = "NUM L";
             bindings = <
-&trans  &trans           &trans           &trans           &trans           &trans                            &mmv MOVE_UP                     &kp CARET  &kp COMMA         &kp UNDERSCORE     &kp PERIOD     &kp GRAVE          &trans
-&trans  &kp KP_NUMBER_6  &kp KP_NUMBER_4  &kp KP_NUMBER_0  &kp KP_NUMBER_2  &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HASH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp DOUBLE_QUOTES  &trans
-&trans  &trans           &trans           &trans           &kp KP_NUMBER_8  &trans  &trans                    &mmv MOVE_DOWN                   &kp AT     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp COLON      &kp SINGLE_QUOTE   &trans
-                                          &trans           &trans           &trans                                                             &trans     &tog 4            &trans
+&trans  &trans        &trans        &trans        &trans        &trans                            &mmv MOVE_UP                     &kp CARET  &kp COMMA         &kp UNDERSCORE     &kp PERIOD     &kp GRAVE          &trans
+&trans  &kp NUMBER_6  &kp NUMBER_4  &kp NUMBER_0  &kp NUMBER_2  &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HASH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp DOUBLE_QUOTES  &trans
+&trans  &trans        &trans        &trans        &kp NUMBER_8  &trans  &trans                    &mmv MOVE_DOWN                   &kp AT     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp COLON      &kp SINGLE_QUOTE   &trans
+                                    &trans        &trans        &trans                                                             &trans     &tog 4            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -123,10 +123,10 @@
         RIGHTNUM {
             display-name = "NUM R";
             bindings = <
-&kp TILDE      &kp ASTERISK  &kp PIPE       &kp DOLLAR            &kp EXCLAMATION        &kp KP_PLUS                                 &mmv MOVE_UP                     &trans  &trans           &trans           &trans           &trans           &trans
-&kp BACKSLASH  &kp KP_SLASH  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_EQUAL                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp KP_NUMBER_3  &kp KP_NUMBER_1  &kp KP_NUMBER_5  &kp KP_NUMBER_7  &trans
-&kp PIPE       &kp QUESTION  &kp PERCENT    &kp LESS_THAN         &kp GREATER_THAN       &kp KP_MINUS  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &kp KP_NUMBER_9  &trans           &trans           &trans           &trans
-                                            &trans                &trans                 &trans                                                                       &trans  &trans           &trans
+&kp TILDE      &kp ASTERISK  &kp PIPE       &kp DOLLAR            &kp EXCLAMATION        &kp KP_PLUS                                 &mmv MOVE_UP                     &trans  &trans        &trans        &trans        &trans        &trans
+&kp BACKSLASH  &kp KP_SLASH  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_EQUAL                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp NUMBER_3  &kp NUMBER_1  &kp NUMBER_5  &kp NUMBER_7  &trans
+&kp PIPE       &kp QUESTION  &kp PERCENT    &kp LESS_THAN         &kp GREATER_THAN       &kp KP_MINUS  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &kp NUMBER_9  &trans        &trans        &trans        &trans
+                                            &trans                &trans                 &trans                                                                       &trans  &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
