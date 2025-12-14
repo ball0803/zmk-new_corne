@@ -269,8 +269,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWERTY, h: toggle}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -343,6 +343,55 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  DVORAK:
+  - $$mdi:keyboard-tab$$
+  - .
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - P
+  - Y
+  - $$mdi:arrow-up-bold$$
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - O
+  - E
+  - U
+  - I
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - D
+  - H
+  - T
+  - N
+  - S
+  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-command$$
+  - {t: ;, s: ':'}
+  - Q
+  - J
+  - K
+  - X
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - {t: '=', s: +}
+  - SHRT
+  - NUM L
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', h: NUM R}
+  - FUNCT
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
