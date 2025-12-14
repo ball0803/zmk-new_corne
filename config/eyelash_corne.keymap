@@ -133,6 +133,7 @@
         };
 
         NUMCAP {
+            display-name = "NUMCAP";
             bindings = <
 &trans  &trans  &trans     &kp EQUAL  &trans  &trans                    &trans          &trans  &trans  &trans    &kp AMPERSAND  &trans  &trans
 &trans  &kp N6  &kp N4     &kp N0     &kp N2  &trans            &trans  &trans  &trans  &trans  &kp N3  &kp N1    &kp N5         &kp N7  &trans
@@ -142,15 +143,17 @@
         };
 
         SHRT {
+            display-name = "SHRT";
             bindings = <
 &trans  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)            &trans  &trans  &trans  &trans  &to 0   &to 7   &trans  &trans  &trans
+&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)            &trans  &trans  &trans  &trans  &tog 0   &tog 7   &trans  &trans  &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(X)  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                               &trans     &trans     &trans                                       &trans  &trans  &trans
             >;
         };
 
         FUNCT {
+            display-name = "FUNCT";
             bindings = <
 &bootloader   &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &trans  &sys_reset                        &trans          &sys_reset                        &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &trans           &bootloader
 &kp F12       &kp F6        &kp F4        &kp F10       &kp F2  &bt BT_CLR_ALL            &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(0,0,100)    &kp F3           &kp F1           &kp F5           &kp F7           &kp F11
@@ -162,6 +165,7 @@
         };
 
         DVORAK {
+            display-name = "DVORAK";
             bindings = <
 &kp TAB       &kp APOS  &kp COMMA  &kp DOT  &kp P  &kp Y                                     &kp UP_ARROW                     &kp F           &kp G            &kp C  &kp R  &kp L  &kp FSLH
 &kp LCTRL     &kp A     &kp O      &kp E    &kp U  &kp I                     &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp D           &kp H            &kp T  &kp N  &kp S  &kp MINUS
