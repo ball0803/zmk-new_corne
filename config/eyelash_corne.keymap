@@ -144,7 +144,7 @@
         SHRT {
             bindings = <
 &trans  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)            &trans  &trans  &trans  &trans  &to 0   &to 7   &trans  &trans  &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(X)  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                               &trans     &trans     &trans                                       &trans  &trans  &trans
             >;
@@ -159,6 +159,17 @@
             >;
 
             sensor-bindings = <&rgb_encoder>;
+        };
+
+        DVORAK {
+            bindings = <
+&kp TAB       &kp APOS  &kp COMMA  &kp DOT  &kp P  &kp Y                                     &kp UP_ARROW                     &kp F           &kp G            &kp C  &kp R  &kp L  &kp FSLH
+&kp LCTRL     &kp A     &kp O      &kp E    &kp U  &kp I                     &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp D           &kp H            &kp T  &kp N  &kp S  &kp MINUS
+&kp LEFT_GUI  &kp SEMI  &kp Q      &kp J    &kp K  &kp X        &kp SPACE                    &kp DOWN_ARROW                   &kp B           &kp M            &kp W  &kp V  &kp Z  &kp EQUAL
+                                   &mo 5    &mo 2  &lt 1 SPACE                                                                &kp LEFT_SHIFT  &lt 3 BACKSPACE  &mo 6
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
 };
