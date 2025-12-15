@@ -44,9 +44,9 @@ layers:
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
   - SHRT
-  - NUM L
+  - {t: REPEAT, h: NUM L}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backspace$$', h: NUM R}
   - FUNCT
   DVORAK:
@@ -93,9 +93,9 @@ layers:
   - Z
   - {t: '=', s: +}
   - SHRT
-  - NUM L
+  - {t: REPEAT, h: NUM L}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backspace$$', h: NUM R}
   - FUNCT
   GAME:
@@ -112,7 +112,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -127,7 +127,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -144,7 +144,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - NUMTOP
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backspace$$', h: SHRT}
   - FUNCT
   NAV:
@@ -501,3 +501,17 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [43, 46]
   k: {t: NUMCAP, h: toggle}
+- p: [24, 25]
+  k: '&td0'
+- p: [8, 23]
+  k: '&right_arrow'
+- p: [9, 24]
+  k: '&right_double_arrow'
+- p: [4, 17]
+  k: '&left_arrow'
+- p: [3, 16]
+  k: '&left_double_arrow'
+- p: [16, 24]
+  k: $$mdi:alpha-w-box$$
+- p: [16, 32]
+  k: $$mdi:apple-keyboard-command$$
