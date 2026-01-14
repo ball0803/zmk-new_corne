@@ -49,48 +49,48 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backspace$$', h: NUM R}
   - FUNCT
-  DVORAK:
+  ENGRAM:
   - $$mdi:keyboard-tab$$
-  - .
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - P
+  - B
   - Y
+  - O
+  - U
+  - .
   - $$mdi:arrow-up-bold$$
-  - F
-  - G
-  - C
-  - R
-  - L
+  - {t: ;, s: ':'}
+  - D
+  - W
+  - V
+  - Z
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - A
+  - C
   - O
   - E
   - U
-  - I
+  - {t: ',', s: <}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - D
+  - {t: ., s: '>'}
   - H
   - T
   - N
   - S
   - {t: '-', s: _}
-  - $$mdi:apple-keyboard-command$$
-  - {t: ;, s: ':'}
-  - Q
+  - $$mdi:apple-keyboard-option$$
+  - G
+  - X
   - J
   - K
-  - X
-  - $$mdi:keyboard-space$$
+  - {t: '-', s: _}
+  - LGUI
   - $$mdi:arrow-down-bold$$
-  - B
+  - {t: /, s: '?'}
+  - R
   - M
-  - W
-  - V
-  - Z
+  - F
+  - P
   - {t: '=', s: +}
   - SHRT
   - {t: REPEAT, h: NUM L}
@@ -368,7 +368,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: QWERTY, h: toggle}
-  - {t: DVORAK, h: toggle}
+  - {t: ENGRAM, h: toggle}
   - {t: GAME, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
