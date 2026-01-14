@@ -65,7 +65,7 @@ layers:
   - Z
   - $$mdi:apple-keyboard-control$$
   - C
-  - O
+  - I
   - E
   - U
   - {t: ',', s: <}
@@ -75,8 +75,8 @@ layers:
   - {t: ., s: '>'}
   - H
   - T
-  - N
   - S
+  - N
   - Q
   - $$mdi:apple-keyboard-option$$
   - G
