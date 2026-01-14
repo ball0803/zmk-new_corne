@@ -171,8 +171,8 @@
         ENGRAM {
             display-name = "ENGRAM";
             bindings = <
-&kp TAB    &kp B  &kp Y  &kp O  &kp U           &kp APOS                                 &kp UP_ARROW                     &kp SEMI        &kp D            &kp W  &kp V  &kp Z  &kp FSLH
-&kp LCTRL  &kp C  &kp O  &kp E  &kp U           &kp COMMA                &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp DOT         &kp H            &kp T  &kp N  &kp S  &kp MINUS
+&kp TAB    &kp B  &kp Y  &kp O  &kp U           &kp APOS                                 &kp UP_ARROW                     &kp SEMI        &kp L            &kp D  &kp W  &kp V  &kp Z
+&kp LCTRL  &kp C  &kp O  &kp E  &kp U           &kp COMMA                &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp DOT         &kp H            &kp T  &kp N  &kp S  &kp Q
 &kp LALT   &kp G  &kp X  &kp J  &kp K           &kp MINUS    &kp LGUI                    &kp DOWN_ARROW                   &kp FSLH        &kp R            &kp M  &kp F  &kp P  &kp EQUAL
                          &mo 7  &lt 4 C_REPEAT  &lt 3 SPACE                                                               &sk LEFT_SHIFT  &lt 5 BACKSPACE  &mo 8
             >;
