@@ -168,13 +168,13 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        DVORAK {
-            display-name = "DVORAK";
+        ENGRAM {
+            display-name = "ENGRAM";
             bindings = <
-&kp TAB       &kp APOS  &kp COMMA  &kp DOT  &kp P           &kp Y                                     &kp UP_ARROW                     &kp F           &kp G            &kp C  &kp R  &kp L  &kp FSLH
-&kp LCTRL     &kp A     &kp O      &kp E    &kp U           &kp I                     &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp D           &kp H            &kp T  &kp N  &kp S  &kp MINUS
-&kp LEFT_GUI  &kp SEMI  &kp Q      &kp J    &kp K           &kp X        &kp SPACE                    &kp DOWN_ARROW                   &kp B           &kp M            &kp W  &kp V  &kp Z  &kp EQUAL
-                                   &mo 7    &lt 4 C_REPEAT  &lt 3 SPACE                                                                &sk LEFT_SHIFT  &lt 5 BACKSPACE  &mo 8
+&kp TAB    &kp B  &kp Y  &kp O  &kp U           &kp APOS                                 &kp UP_ARROW                     &kp SEMI        &kp D            &kp W  &kp V  &kp Z  &kp FSLH
+&kp LCTRL  &kp C  &kp O  &kp E  &kp U           &kp COMMA                &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp DOT         &kp H            &kp T  &kp N  &kp S  &kp MINUS
+&kp LALT   &kp G  &kp X  &kp J  &kp K           &kp MINUS    &kp LGUI                    &kp DOWN_ARROW                   &kp FSLH        &kp R            &kp M  &kp F  &kp P  &kp EQUAL
+                         &mo 7  &lt 4 C_REPEAT  &lt 3 SPACE                                                               &sk LEFT_SHIFT  &lt 5 BACKSPACE  &mo 8
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
