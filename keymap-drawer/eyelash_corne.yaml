@@ -513,5 +513,7 @@ combos:
   k: '&left_double_arrow'
 - p: [16, 24]
   k: $$mdi:alpha-w-box$$
-- p: [16, 32]
+- p: [32, 31]
   k: $$mdi:apple-keyboard-command$$
+- p: [37, 38]
+  k: RIGHT GUI
