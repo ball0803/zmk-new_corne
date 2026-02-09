@@ -110,9 +110,14 @@
             key-positions = <16 24>;
         };
 
-        GUI_C {
+        GUI_L {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <16 32>;
+            key-positions = <32 31>;
+        };
+
+        GUI_R {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <37 38>;
         };
     };
 
