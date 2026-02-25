@@ -156,6 +156,27 @@
             bindings = <&kp LT &kp EQUAL>;
             label = "LEFT_DOUBLE_ARROW";
         };
+
+        down_exit: down_exit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &tog 6>;
+            label = "DOWN_EXIT";
+        };
+
+        up_exit: up_exit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &tog 6>;
+            label = "UP_EXIT";
+        };
+
+        goto_exit: goto_exit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(G) &tog 6>;
+            label = "GOTO_EXIT";
+        };
     };
 
     keymap {
@@ -236,10 +257,10 @@
         NUMCAP {
             display-name = "NUMCAP";
             bindings = <
-&trans  &trans  &trans     &kp EQUAL  &trans  &trans                    &trans          &trans  &trans  &trans    &kp AMPERSAND  &trans  &trans
-&trans  &kp N6  &kp N4     &kp N2     &kp N0  &trans            &trans  &trans  &trans  &trans  &kp N1  &kp N3    &kp N5         &kp N7  &trans
-&trans  &kp N8  &kp EQUAL  &kp MINUS  &trans  &trans  &trans            &trans          &trans  &trans  &kp APOS  &kp DOT        &kp N9  &trans
-                           &trans     &trans  &trans                                    &tog 6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp EQUAL                    &trans          &trans   &down_exit  &up_exit  &goto_exit  &trans  &trans
+&trans  &kp N6  &kp N4  &kp N2  &kp N0  &kp COMMA            &trans  &trans  &trans  &kp DOT  &kp N1      &kp N3    &kp N5      &kp N7  &trans
+&trans  &kp N8  &trans  &trans  &trans  &kp MINUS  &trans            &trans          &trans   &trans      &trans    &trans      &kp N9  &trans
+                        &trans  &trans  &trans                                       &tog 6   &trans      &trans
             >;
         };
 
